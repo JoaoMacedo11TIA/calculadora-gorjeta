@@ -169,6 +169,10 @@ main {
     }
     
     main {
+        input::-webkit-inner-spin-button,
+        input::-webkit-outer-spin-button {
+        display: none;
+ }
         display: flex;
         max-width: 92rem;
         margin-inline: auto;
@@ -187,7 +191,7 @@ main {
 
     }
             button:hover {
-                background: var(--topaz);
+                background: var(--water-leaf);
                 cursor: pointer;
                 transition: .3s;
             }
